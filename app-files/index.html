@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>skhu_tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0--">
+        <li class="text">구두인관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1--1">
+        <li class="text">구두인관 내부1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2--2">
+        <li class="text">구두인관 내부2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3--3">
+        <li class="text">구두인관 내부3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4--">
+        <li class="text">구두인관 입구계단</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5--">
+        <li class="text">구두인관 포토스팟</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6--">
+        <li class="text">승연관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7--">
+        <li class="text">일만관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8--">
+        <li class="text">월당관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9--">
+        <li class="text">나눔관 자드입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10--">
+        <li class="text">나눔관 주차장</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11--">
+        <li class="text">정보과학관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12--1">
+        <li class="text">정보과학관 입구옆계단1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13--2">
+        <li class="text">정보과학관 입구옆계단2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14--1">
+        <li class="text">정보과학관 프젝실1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15--2">
+        <li class="text">정보과학관 프젝실2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16--3">
+        <li class="text">정보과학관 프젝실3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17--1">
+        <li class="text">정보과학관 프젝실복도1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18--2">
+        <li class="text">정보과학관 프젝실복도2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19--3">
+        <li class="text">정보과학관 프젝실복도3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20--1">
+        <li class="text">새천년관 식당1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21--2">
+        <li class="text">새천년관 식당2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22--3">
+        <li class="text">새천년관 식당3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23--4">
+        <li class="text">새천년관 식당4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24--">
+        <li class="text">새천년관 식당입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25--11">
+        <li class="text">도서관 1층1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26--12">
+        <li class="text">도서관 1층2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27--13">
+        <li class="text">도서관 1층3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28--14">
+        <li class="text">도서관 1층4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29--2">
+        <li class="text">도서관 2층계단</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30--b11">
+        <li class="text">도서관 B1층1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31--b12">
+        <li class="text">도서관 B1층2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32--b13">
+        <li class="text">도서관 B1층3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33--b1">
+        <li class="text">도서관 B1층계단</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34--b21">
+        <li class="text">도서관 B2층1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35--b22">
+        <li class="text">도서관 B2층2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36--">
+        <li class="text">월당관 입구측면</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37--">
+        <li class="text">중앙도서관 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38--">
+        <li class="text">피츠버그홀 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-">
+        <li class="text">피츠버그홀</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40--">
+        <li class="text">피츠버그홀 무대</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-">
+        <li class="text">성미가엘성당</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42--1">
+        <li class="text">미가엘관 깐투치오1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43--">
+        <li class="text">미가엘관 샛길</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44--">
+        <li class="text">둘레길 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45--">
+        <li class="text">행복기숙사 입구</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-">
+        <li class="text">느티아래</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-1">
+        <li class="text">둘레길1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-2">
+        <li class="text">둘레길2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-">
+        <li class="text">농구장</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50--">
+        <li class="text">행복기숙사 가는길</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
